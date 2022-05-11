@@ -1,0 +1,29 @@
+.form_area tr{
+  height: 7rem;
+}
+
+.form_area th{
+  width: 150px;
+  text-align: right;
+}
+
+td .text1{
+  width: 480px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #008B8B;
+  color: #fff;
+  font-size: 3rem;
+  border: 0;
+}
+
+.button {
+  text-align: center;
+}
+
+.button :hover{
+   opacity: 0.6;
+}

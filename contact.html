@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>株式会社DIVE</title>
+</head>
+<body>
+  <div class="container"><!-- 追記 -->
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/business.png" class="image_area"> <!-- この行を追記 -->
+    <div class="wrapper clearfix">　<!-- この行を追記 -->
+      <aside class="side_menu">
+        <nav> <!-- この行から追記 -->
+          <ul>
+            <li><a href="business.html">事業内容</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li class="point"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav> <!-- この行まで追記 -->
+  　　 </aside>
+      <article class="content">
+        <table class="form_area">
+          <form>
+            <tr>
+              <th>お名前</th>
+              <td><input type="text" class="text1" name="name"></td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td><input type="email" class="text1"></td>
+            </tr>
+            <tr>
+              <th>性別</th>
+              <td><div class="text1">
+                <input type="radio" name="sex">男
+                <input type="radio" name="sex">女</div>
+              </td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td><textarea class="text1"></textarea></td>
+            </tr>
+          </table>
+          <div class="button">
+            <tr><input type="submit"></tr>
+          </div>
+        </form>
+      </article>
+    </div>
+    <footer class="footer">
+      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+  </div>
+</body>
+</html>
